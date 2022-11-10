@@ -1,9 +1,11 @@
 import React from 'react'
-
+import ResponsiveAppBar from './Menu';
 
 class App extends React.Component {
     render() {
-        return <h1>Hello World</h1>;
+        return (
+            <ResponsiveAppBar />
+        )
     }
 }
 
