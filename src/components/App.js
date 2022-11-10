@@ -1,10 +1,13 @@
 import React from 'react'
-import ResponsiveAppBar from './Menu';
+import Footer from './Footer'
+
 
 class App extends React.Component {
     render() {
         return (
-            <ResponsiveAppBar />
+            <div>
+                <Footer />
+            </div>
         )
     }
 }
