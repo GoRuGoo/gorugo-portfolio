@@ -5,14 +5,14 @@ class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            loading: false
+            loading: true
         }
     }
     componentDidMount() {
-        setTimeout(() => this.setState({ loading: true }), 5000)
+        setTimeout(() => this.setState({ loading: false }), 2000)
     }
     render() {
-        if (!this.state.loading) {
+        if (this.state.loading) {
             return (
                 <div>
                     <Dna
