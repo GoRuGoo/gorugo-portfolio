@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from './Footer'
 import { Dna } from 'react-loader-spinner'
+import { AppBar, Toolbar, IconButton, Typography } from '@mui/material';
 class App extends React.Component {
     constructor(props) {
         super(props);
@@ -28,6 +29,15 @@ class App extends React.Component {
         } else {
             return (
                 <div>
+                    <AppBar position="static">
+                        <Toolbar variant="dense">
+                            <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
+                            </IconButton>
+                            <Typography variant="h6" color="inherit" component="div">
+                                Photos
+                            </Typography>
+                        </Toolbar>
+                    </AppBar>
                     <Footer />
                 </div>
             )
