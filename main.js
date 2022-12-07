@@ -1,6 +1,3 @@
 var windowWidth = window.innerWidth;
-var windowHeight = window.innerHeight;
-console.log(windowWidth);
-console.log(windowHeight);
-
-document.getElementById('welcome-div-class').style.padding = "800px";
+document.getElementById('welcome-div-class').style.paddingTop = String(window.innerHeight/2)+"px";
+document.getElementById('welcome-div-class').style.paddingBottom = String(window.innerHeight/2)+ "px";
