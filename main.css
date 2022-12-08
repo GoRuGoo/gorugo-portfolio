@@ -11,6 +11,10 @@ html{
     margin: 0px;
     padding: 0px;
 }
+ul li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
 /* welcome text */
 
@@ -46,7 +50,7 @@ html{
     font-size: 50px;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-top: 40px;
+    padding-top: 50px;
     font-weight: 300;
     margin: 0px;
 }
@@ -87,19 +91,18 @@ html{
 
 /*///////////////////////*/
 
-/* Skills */
-#introduce-my-skills-div{
+/* Biography */
+#biography-div{
     background-color: black;
     font-family: syber;
     color: white;
     font-size: 50px;
     text-align: left;
-    padding-top: 100px;
+    padding-top: 70px;
     padding-left: 100px;
     margin: 0px;
 }
-
-#first-hello-introduce{
+#biography-title{
     background-color: black;
     font-family: syber;
     color: white;
@@ -108,8 +111,7 @@ html{
     margin: 0px;
     text-align: left;
 }
-
-#first-hello-ul{
+#biography-ul{
     background-color: black;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -120,8 +122,37 @@ html{
     font-size: 40px;
     font-weight: 300;
 }
-ul li{
-    margin-top: 15px;
-    margin-bottom: 15px;
+
+/* Skills */
+#introduce-my-skills-div{
+    background-color: black;
+    font-family: syber;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right: auto;
+}
+
+#skills-introduce{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    text-align: left;
+}
+
+#skills-ul{
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 70px;
+    font-size: 40px;
+    font-weight: 300;
 }
 /* /////////////////*/
