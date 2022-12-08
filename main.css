@@ -45,7 +45,7 @@ ul li{
     margin: 0px;
 }
 
-.first-introduce-maincontent{
+#first-content{
     background-color: black;
     color:white;
     font-size: 50px;
@@ -102,8 +102,6 @@ ul li{
     font-size: 50px;
     text-align: left;
     padding-top: 70px;
-    padding-left: 3.5%;
-    padding-right: auto;
     margin: 0px;
 }
 #biography-title{
@@ -114,6 +112,8 @@ ul li{
     text-align: center;
     margin: 0px;
     text-align: left;
+    padding-left: 3.5%;
+    padding-right: auto;
 }
 #biography-ul{
     background-color: black;
@@ -122,9 +122,10 @@ ul li{
     text-align: left;
     margin: 0px;
     padding-top: 30px;
-    padding-left: 70px;
     font-size: 40px;
     font-weight: 300;
+    padding-left: 9%;
+    padding-right: auto;
 }
 
 /* Skills */
@@ -135,9 +136,6 @@ ul li{
     font-size: 50px;
     text-align: left;
     padding-top: 70px;
-    padding-left: 3.5%;
-    padding-right: auto;
-    clear: right;
 }
 
 #skills-title{
@@ -147,6 +145,8 @@ ul li{
     text-align: center;
     margin: 0px;
     text-align: left;
+    padding-left: 3.5%;
+    padding-right: auto;
 }
 
 #skills-ul{
@@ -156,9 +156,10 @@ ul li{
     text-align: left;
     margin: 0px;
     padding-top: 30px;
-    padding-left: 70px;
     font-size: 40px;
     font-weight: 300;
+    padding-left: 9%;
+    padding-right: auto;
 }
 /* /////////////////*/
 
@@ -170,16 +171,28 @@ ul li{
     font-size: 50px;
     text-align: left;
     padding-top: 70px;
-    padding-left: 3.5%;
-    padding-right: auto;
-    clear: right;
+    margin: 0px;
 }
 #my-favorite-title{
     background-color: black;
-    font-family: syber;
     color: white;
     font-size: 50px;
     text-align: center;
     margin: 0px;
     text-align: left;
+    padding-left: 5.0%;
+    padding-right: auto;
+}
+#favorite-text{
+    background-color: black;
+    color:white;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 50px;
+    font-weight: 300;
+    margin: 0px;
+    padding-left: 9%;
+}
+#link-hoshimati{
+    color: white;
 }
