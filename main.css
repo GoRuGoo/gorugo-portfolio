@@ -196,3 +196,39 @@ ul li{
 #link-hoshimati{
     color: white;
 }
+/*/////////*/
+
+/* Contact */
+#contact-div{
+    background-color: black;
+    font-family: syber;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    padding-top: 70px;
+    margin: 0px;
+}
+#contact-title{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    text-align: left;
+    padding-left: 5.0%;
+    padding-right: auto;
+}
+#contact-p{
+    background-color: black;
+    color:white;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 50px;
+    font-weight: 300;
+    margin: 0px;
+    padding-left: 9%;
+    padding-bottom: 100px;
+}
+#contact-a{
+    color: white;
+}
