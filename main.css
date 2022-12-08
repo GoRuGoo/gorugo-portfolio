@@ -50,12 +50,40 @@ html{
     font-weight: 300;
     margin: 0px;
 }
+
+#first-btn-primary{
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-weight: 400;
+    font-size: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: auto;
+}
+
+#second-btn-primary{
+    margin-left: 30px;
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-weight: 400;
+    font-size: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#third-btn-primary-wantedly{
+    margin-right: auto;
+}
+
 .buttondiv{
-    text-align: center;
     background-color: black;
     padding: 100px;
     display: flex;
 }
+
+
 
 /*///////////////////////*/
 
@@ -95,26 +123,5 @@ html{
 ul li{
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-#first-btn-primary{
-    background-color: black;
-    border-color: black;
-    color: white;
-    font-weight: 400;
-    font-size: 60px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
-#second-btn-primary{
-    margin-left: 30px;
-    background-color: black;
-    border-color: black;
-    color: white;
-    font-weight: 400;
-    font-size: 60px;
-    padding-bottom: 10px;
-    padding-top: 10px;
 }
 /* /////////////////*/
