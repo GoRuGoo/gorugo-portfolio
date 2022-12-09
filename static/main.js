@@ -8,3 +8,15 @@ window.onload = ()=>{
     const loader = document.getElementById('loader');
     loader.classList.add('loaded');
 }
+
+
+document.querySelector(`introduce-float`).animate(
+	[
+		{ opacity: 1 },
+		{ opacity: 0 }
+	],
+	{
+		duration: 3000,
+		fill: 'forwards'
+	}
+);
