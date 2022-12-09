@@ -31,7 +31,21 @@ ul li{
     position: absolute;
     padding-left: 10%;
     padding-right: auto;
+    animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
 }
+@keyframes slideIn {
+0% {
+    transform: translateX(1000px);
+    opacity: 0;
+}
+100% {
+    transform: translateX(0);
+}
+40%,100% {
+    opacity: 1;
+}
+}
+
 
 #first-hello-div{
     margin: 0px;
@@ -233,20 +247,3 @@ ul li{
     color: white;
 }
 
-
-#welcome-portfolio {
-    animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
-  }
-
-  @keyframes slideIn {
-    0% {
-      transform: translateX(180px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-    }
-    40%,100% {
-      opacity: 1;
-    }
-  }
