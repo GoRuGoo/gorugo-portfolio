@@ -6,10 +6,12 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: black;
 }
 html{
     margin: 0px;
     padding: 0px;
+    background-color: black;
 }
 ul li{
     padding-top: 15px;
@@ -47,10 +49,11 @@ ul li{
 }
 
 
-
-#first-hello-div{
-    margin: 0px;
+#introduce-float{
+    opacity: 0;
+    animation: fadeIn 0.6s ease-out forwards;
 }
+
 #first-hello{
     background-color: black;
     font-family: syber;
@@ -58,6 +61,16 @@ ul li{
     font-size: 50px;
     text-align: center;
     margin: 0px;
+}
+@keyframes fadeIn{
+    0% {
+        opacity: 0;
+        transform: translateY(60px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateY(0);
+     }
 }
 
 #first-content{
@@ -102,7 +115,9 @@ ul li{
 .buttondiv{
     background-color: black;
     padding: 100px;
+    padding-top: 50px;
     display: flex;
+    animation: fadeIn 0.6s ease-out forwards;
 }
 
 
