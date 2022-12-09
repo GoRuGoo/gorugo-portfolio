@@ -49,7 +49,7 @@ ul li{
 }
 
 #my-name{
-    color: yellowgreen;
+    color: #00ccff;
 }
 
 
@@ -196,6 +196,42 @@ ul li{
     padding-right: auto;
 }
 /* /////////////////*/
+
+/* Awards and Qua*/
+#my-awards-and-qua-div{
+    background-color: black;
+    font-family: syber;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    padding-top: 70px;
+}
+
+#my-awards-and-qua-title{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    text-align: left;
+    padding-left: 3.5%;
+    padding-right: auto;
+}
+
+#my-awards-and-qua-ul{
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    margin: 0px;
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 300;
+    padding-left: 9%;
+    padding-right: auto;
+}
+
+/*////////////////*/
 
 /* My Favorite */
 #my-favorite-div{
