@@ -53,10 +53,10 @@ ul li{
 }
 
 
-#introduce-float{
+/* #introduce-float{
     opacity: 0;
     animation: fadeIn 0.6s ease-out forwards;
-}
+} */
 
 #first-hello{
     background-color: black;
