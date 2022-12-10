@@ -77,6 +77,20 @@ ul li{
      }
 }
 
+@keyframes testcolor{
+    0%{
+        color: white;
+    }
+    100%{
+        color: red;
+    }
+}
+
+.is-animated{
+    animation: testcolor 1s ease 1s infinite forwards;
+    animation-iteration-count: 1;
+}
+
 #first-content{
     background-color: black;
     color:white;
@@ -121,7 +135,6 @@ ul li{
     padding: 100px;
     padding-top: 50px;
     display: flex;
-    animation: fadeIn 0.6s ease-out forwards;
 }
 
 
