@@ -87,7 +87,7 @@ ul li{
 }
 
 .is-animated{
-    animation: testcolor 1s ease 1s infinite forwards;
+    animation: fadeIn 1s ease 1s infinite forwards;
     animation-iteration-count: 1;
 }
 
@@ -101,6 +101,10 @@ ul li{
     font-weight: 300;
     margin: 0px;
 }
+
+
+/* ///////////////////////*/
+/* button */
 
 #first-btn-primary{
     background-color: black;
