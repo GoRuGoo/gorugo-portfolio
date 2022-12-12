@@ -1,12 +1,7 @@
-let targets = document.querySelectorAll('.first-content'); //アニメーションさせたい要素
-//スクロールイベント
-window.addEventListener('scroll', function () {
-  var scroll = window.scrollY; //スクロール量を取得
-  var windowHeight = window.innerHeight; //画面の高さを取得
-  for (let target of targets) { //ターゲット要素がある分、アニメーション用のクラスをつける処理を繰り返す
-    var targetPos = target.getBoundingClientRect().top + scroll; //ターゲット要素の位置を取得
-    if (scroll > targetPos - windowHeight) { //スクロール量 > ターゲット要素の位置
-      target.classList.add('is-animated'); //is-animatedクラスを加える
-    }
-  }
+ScrollReveal().reveal('.first-content', {
+  // アニメーションが完了するまでの時間
+  duration: 1000,
+  // アニメーション開始までの時間
+  delay: 500,
+  opacity: 0
 });
