@@ -1,7 +1,41 @@
 ScrollReveal().reveal('.first-content', {
-  // アニメーションが完了するまでの時間
-  duration: 1000,
-  // アニメーション開始までの時間
-  delay: 500,
-  opacity: 0
+  duration: 500,
+  delay: 300,
+  opacity: 0,
+  reset: true
+});
+
+ScrollReveal().reveal('#biography-div', {
+  duration: 1600,
+  origin: 'right',
+  distance: '50%',
+  reset: true
+});
+
+ScrollReveal().reveal('#introduce-my-skills-div', {
+  duration: 1600,
+  origin: 'right',
+  distance: '50%',
+  reset: true
+});
+
+ScrollReveal().reveal('#my-awards-and-qua-div', {
+  duration: 1600,
+  origin: 'right',
+  distance: '50%',
+  reset: true
+});
+
+ScrollReveal().reveal('#my-favorite-div', {
+  duration: 1600,
+  origin: 'right',
+  distance: '50%',
+  reset: true
+});
+
+ScrollReveal().reveal('#contact-div', {
+  duration: 1600,
+  origin: 'right',
+  distance: '50%',
+  reset: true
 });
