@@ -1,5 +1,5 @@
 ScrollReveal().reveal('.first-content', {
-  duration: 500,
+  duration: 300,
   delay: 300,
   opacity: 0,
   reset: true
