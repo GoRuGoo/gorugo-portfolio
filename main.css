@@ -108,7 +108,7 @@ ul li{
     font-size: 1.13rem;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-top: 3.13em;
+    padding-top: 3.13rem;
     font-weight: 300;
     margin: 0px;
 }
@@ -122,33 +122,33 @@ ul li{
     border-color: black;
     color: white;
     font-weight: 400;
-    font-size: 60px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 0.62rem;
+    padding-top: 0.62rem;
     margin-left: auto;
     cursor: pointer;
 }
 
 #second-btn-primary{
-    margin-left: 30px;
+    margin-left: 1.88rem;
     background-color: black;
     border-color: black;
     color: white;
     font-weight: 400;
-    font-size: 60px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 0.62rem;
+    padding-top: 0.63rem;
     cursor: pointer;
 }
 
 #third-btn-primary-wantedly{
     margin-right: auto;
+    margin-left: 0.6rem;
+    margin-top: 0.5rem;
 }
 
 .buttondiv{
     background-color: black;
-    padding: 100px;
-    padding-top: 50px;
+    padding: 6.25rem;
+    padding-top: 3.13rem;
     display: flex;
 }
 
