@@ -16,6 +16,7 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: black;
+    overflow-x: hidden;
 }
 html{
     margin: 0px;
@@ -23,8 +24,8 @@ html{
     background-color: black;
 }
 ul li{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 0.94rem;
+    padding-bottom: 0.94rem;
 }
 
 
@@ -303,3 +304,282 @@ ul li{
     color: white;
 }
 
+
+/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
+@media screen and ( max-width:479px )
+{
+    .welcome-div-class{
+        background-color: black;
+        position: relative;
+        margin: 0px;
+    }
+
+    #welcome-portfolio{
+        color: white;
+        font-size: 2rem;
+        font-family: syber;
+        position: absolute;
+        padding-left: 10%;
+        padding-right: auto;
+        /* animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards; */
+    }
+    @keyframes slideIn {
+    0% {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+    }
+    40%,100% {
+        opacity: 1;
+    }
+    }
+
+    #my-name{
+        color: #00ccff;
+    }
+
+
+    /* #introduce-float{
+        opacity: 0;
+        animation: fadeIn 0.6s ease-out forwards;
+    } */
+
+    #first-hello{
+        background-color: black;
+        font-family: syber;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        line-height: 2rem;
+        margin: 0px;
+    }
+
+    #first-content{
+        background-color: black;
+        color:white;
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 3.13rem;
+        font-weight: 300;
+        margin: 0px;
+    }
+
+
+    /* ///////////////////////*/
+    /* button */
+
+    #first-btn-primary{
+        background-color: black;
+        border-color: black;
+        color: white;
+        font-weight: 400;
+        padding-bottom: 0.62rem;
+        padding-top: 0.62rem;
+        margin-left: auto;
+        cursor: pointer;
+    }
+
+    #second-btn-primary{
+        margin-left: 1.88rem;
+        background-color: black;
+        border-color: black;
+        color: white;
+        font-weight: 400;
+        padding-bottom: 0.62rem;
+        padding-top: 0.63rem;
+        cursor: pointer;
+    }
+
+    #third-btn-primary-wantedly{
+        margin-right: auto;
+        margin-left: 0.6rem;
+        margin-top: 0.5rem;
+    }
+
+    .buttondiv{
+        background-color: black;
+        padding: 6.25rem;
+        padding-top: 3.13rem;
+        display: flex;
+    }
+
+
+
+    /*///////////////////////*/
+
+    /* Biography */
+    #biography-div{
+        background-color: black;
+        font-family: syber;
+        color: white;
+        text-align: left;
+        padding-top: 4.38rem;
+        margin: 0px;
+    }
+    #biography-title{
+        background-color: black;
+        font-family: syber;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        margin: 0px;
+        text-align: left;
+        padding-left: 3.5%;
+        padding-right: auto;
+    }
+    #biography-ul{
+        background-color: black;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: left;
+        margin: 0px;
+        padding-top: 1.88rem;
+        font-size: 1.25rem;
+        font-weight: 300;
+        padding-left: 9%;
+        padding-right: auto;
+    }
+
+    /* Skills */
+    #introduce-my-skills-div{
+        background-color: black;
+        font-family: syber;
+        color: white;
+        text-align: left;
+        padding-top: 4.38rem;
+    }
+
+    #skills-title{
+        background-color: black;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        margin: 0px;
+        text-align: left;
+        padding-left: 3.5%;
+        padding-right: auto;
+    }
+
+    #skills-ul{
+        background-color: black;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: left;
+        margin: 0px;
+        padding-top: 1.88rem;
+        font-size: 1.25rem;
+        font-weight: 300;
+        padding-left: 9%;
+        padding-right: auto;
+    }
+    /* /////////////////*/
+
+    /* Awards and Qua*/
+    #my-awards-and-qua-div{
+        background-color: black;
+        font-family: syber;
+        color: white;
+        text-align: left;
+        padding-top: 4.38rem;
+    }
+
+    #my-awards-and-qua-title{
+        background-color: black;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        margin: 0px;
+        text-align: left;
+        padding-left: 5%;
+        padding-right: auto;
+    }
+
+    #my-awards-and-qua-ul{
+        background-color: black;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: left;
+        margin: 0px;
+        padding-top: 1.88rem;
+        font-size: 1.25rem;
+        font-weight: 300;
+        padding-left: 9%;
+        padding-right: auto;
+    }
+
+    /*////////////////*/
+
+    /* My Favorite */
+    #my-favorite-div{
+        background-color: black;
+        font-family: syber;
+        color: white;
+        text-align: left;
+        padding-top: 4.38rem;
+        margin: 0px;
+    }
+    #my-favorite-title{
+        background-color: black;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        margin: 0px;
+        text-align: left;
+        padding-left: 5.0%;
+        padding-right: auto;
+    }
+    #favorite-text{
+        background-color: black;
+        color:white;
+        font-size: 1.25rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 3.13rem;
+        font-weight: 300;
+        margin: 0px;
+        padding-left: 9%;
+        line-height: 2rem;
+    }
+    #link-hoshimati{
+        color: white;
+    }
+    /*/////////*/
+
+    /* Contact */
+    #contact-div{
+        background-color: black;
+        font-family: syber;
+        color: white;
+        text-align: left;
+        padding-top: 4.38rem;
+        margin: 0px;
+    }
+    #contact-title{
+        background-color: black;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        margin: 0px;
+        text-align: left;
+        padding-left: 5.0%;
+        padding-right: auto;
+    }
+    #contact-p{
+        background-color: black;
+        color:white;
+        font-size: 1.25rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 3.13rem;
+        font-weight: 300;
+        margin: 0px;
+        padding-left: 9%;
+        padding-bottom: 6.25rem;
+    }
+    #contact-a{
+        color: white;
+    }
+
+
+}
