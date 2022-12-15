@@ -43,7 +43,7 @@ ul li{
     position: absolute;
     padding-left: 10%;
     padding-right: auto;
-    animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
+    /* animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards; */
 }
 @keyframes slideIn {
 0% {
@@ -76,30 +76,6 @@ ul li{
     text-align: center;
     line-height: 2rem;
     margin: 0px;
-}
-@keyframes fadeIn{
-    0% {
-        opacity: 0;
-        transform: translateY(60px);
-     }
-     100% {
-        opacity: 1;
-        transform: translateY(0);
-     }
-}
-
-@keyframes testcolor{
-    0%{
-        color: white;
-    }
-    100%{
-        color: red;
-    }
-}
-
-.is-animated{
-    animation: fadeIn 1s ease 1s infinite forwards;
-    animation-iteration-count: 1;
 }
 
 #first-content{
