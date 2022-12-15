@@ -26,6 +26,8 @@ ul li{
     padding-top: 15px;
     padding-bottom: 15px;
 }
+/* TODO ul liの感覚調整
+
 
 /* welcome text */
 
@@ -37,7 +39,7 @@ ul li{
 
 #welcome-portfolio{
     color: white;
-    font-size: 50px;
+    font-size: 2rem;
     font-family: syber;
     position: absolute;
     padding-left: 10%;
