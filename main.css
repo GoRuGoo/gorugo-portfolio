@@ -73,7 +73,7 @@ ul li{
     background-color: black;
     font-family: syber;
     color: white;
-    font-size: 50px;
+    font-size: 2rem;
     text-align: center;
     margin: 0px;
 }
@@ -105,10 +105,10 @@ ul li{
 #first-content{
     background-color: black;
     color:white;
-    font-size: 50px;
+    font-size: 1.13rem;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-top: 50px;
+    padding-top: 3.13em;
     font-weight: 300;
     margin: 0px;
 }
