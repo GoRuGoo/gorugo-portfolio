@@ -27,6 +27,7 @@ ul li{
     padding-bottom: 15px;
 }
 
+
 /* welcome text */
 
 .welcome-div-class{
@@ -37,7 +38,7 @@ ul li{
 
 #welcome-portfolio{
     color: white;
-    font-size: 50px;
+    font-size: 2rem;
     font-family: syber;
     position: absolute;
     padding-left: 10%;
@@ -71,8 +72,9 @@ ul li{
     background-color: black;
     font-family: syber;
     color: white;
-    font-size: 50px;
+    font-size: 2rem;
     text-align: center;
+    line-height: 2rem;
     margin: 0px;
 }
 @keyframes fadeIn{
@@ -103,10 +105,10 @@ ul li{
 #first-content{
     background-color: black;
     color:white;
-    font-size: 50px;
+    font-size: 1.25rem;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-top: 50px;
+    padding-top: 3.13rem;
     font-weight: 300;
     margin: 0px;
 }
@@ -120,33 +122,33 @@ ul li{
     border-color: black;
     color: white;
     font-weight: 400;
-    font-size: 60px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 0.62rem;
+    padding-top: 0.62rem;
     margin-left: auto;
     cursor: pointer;
 }
 
 #second-btn-primary{
-    margin-left: 30px;
+    margin-left: 1.88rem;
     background-color: black;
     border-color: black;
     color: white;
     font-weight: 400;
-    font-size: 60px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 0.62rem;
+    padding-top: 0.63rem;
     cursor: pointer;
 }
 
 #third-btn-primary-wantedly{
     margin-right: auto;
+    margin-left: 0.6rem;
+    margin-top: 0.5rem;
 }
 
 .buttondiv{
     background-color: black;
-    padding: 100px;
-    padding-top: 50px;
+    padding: 6.25rem;
+    padding-top: 3.13rem;
     display: flex;
 }
 
@@ -159,16 +161,15 @@ ul li{
     background-color: black;
     font-family: syber;
     color: white;
-    font-size: 50px;
     text-align: left;
-    padding-top: 70px;
+    padding-top: 4.38rem;
     margin: 0px;
 }
 #biography-title{
     background-color: black;
     font-family: syber;
     color: white;
-    font-size: 50px;
+    font-size: 2rem;
     text-align: center;
     margin: 0px;
     text-align: left;
@@ -181,8 +182,8 @@ ul li{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: left;
     margin: 0px;
-    padding-top: 30px;
-    font-size: 40px;
+    padding-top: 1.88rem;
+    font-size: 1.25rem;
     font-weight: 300;
     padding-left: 9%;
     padding-right: auto;
@@ -193,15 +194,14 @@ ul li{
     background-color: black;
     font-family: syber;
     color: white;
-    font-size: 50px;
     text-align: left;
-    padding-top: 70px;
+    padding-top: 4.38rem;
 }
 
 #skills-title{
     background-color: black;
     color: white;
-    font-size: 50px;
+    font-size: 2rem;
     text-align: center;
     margin: 0px;
     text-align: left;
@@ -215,8 +215,8 @@ ul li{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: left;
     margin: 0px;
-    padding-top: 30px;
-    font-size: 40px;
+    padding-top: 1.88rem;
+    font-size: 1.25rem;
     font-weight: 300;
     padding-left: 9%;
     padding-right: auto;
@@ -228,15 +228,14 @@ ul li{
     background-color: black;
     font-family: syber;
     color: white;
-    font-size: 50px;
     text-align: left;
-    padding-top: 70px;
+    padding-top: 4.38rem;
 }
 
 #my-awards-and-qua-title{
     background-color: black;
     color: white;
-    font-size: 50px;
+    font-size: 2rem;
     text-align: center;
     margin: 0px;
     text-align: left;
@@ -250,8 +249,8 @@ ul li{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: left;
     margin: 0px;
-    padding-top: 30px;
-    font-size: 40px;
+    padding-top: 1.88rem;
+    font-size: 1.25rem;
     font-weight: 300;
     padding-left: 9%;
     padding-right: auto;
@@ -264,15 +263,14 @@ ul li{
     background-color: black;
     font-family: syber;
     color: white;
-    font-size: 50px;
     text-align: left;
-    padding-top: 70px;
+    padding-top: 4.38rem;
     margin: 0px;
 }
 #my-favorite-title{
     background-color: black;
     color: white;
-    font-size: 50px;
+    font-size: 2rem;
     text-align: center;
     margin: 0px;
     text-align: left;
@@ -282,12 +280,13 @@ ul li{
 #favorite-text{
     background-color: black;
     color:white;
-    font-size: 50px;
+    font-size: 1.25rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-top: 50px;
+    padding-top: 3.13rem;
     font-weight: 300;
     margin: 0px;
     padding-left: 9%;
+    line-height: 2rem;
 }
 #link-hoshimati{
     color: white;
@@ -299,15 +298,14 @@ ul li{
     background-color: black;
     font-family: syber;
     color: white;
-    font-size: 50px;
     text-align: left;
-    padding-top: 70px;
+    padding-top: 4.38rem;
     margin: 0px;
 }
 #contact-title{
     background-color: black;
     color: white;
-    font-size: 50px;
+    font-size: 2rem;
     text-align: center;
     margin: 0px;
     text-align: left;
@@ -317,13 +315,13 @@ ul li{
 #contact-p{
     background-color: black;
     color:white;
-    font-size: 50px;
+    font-size: 1.25rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-top: 50px;
+    padding-top: 3.13rem;
     font-weight: 300;
     margin: 0px;
     padding-left: 9%;
-    padding-bottom: 100px;
+    padding-bottom: 6.25rem;
 }
 #contact-a{
     color: white;
