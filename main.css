@@ -198,6 +198,10 @@ ul li{
     padding-left: 9%;
     padding-right: auto;
 }
+
+.li-bold{
+    font-weight: 600;
+}
 /* /////////////////*/
 
 /* Awards and Qua*/
@@ -479,6 +483,7 @@ ul li{
         padding-left: 9%;
         padding-right: auto;
     }
+
     /* /////////////////*/
 
     /* Awards and Qua*/
