@@ -14,7 +14,7 @@
 
     #welcome-portfolio{
         color: white;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-family: syber;
         position: absolute;
         padding-left: 10%;
@@ -49,9 +49,9 @@
         background-color: black;
         font-family: syber;
         color: white;
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
-        line-height: 2rem;
+        line-height: 1.5rem;
         margin: 0px;
     }
 
@@ -122,7 +122,7 @@
         background-color: black;
         font-family: syber;
         color: white;
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
         margin: 0px;
         text-align: left;
@@ -154,7 +154,7 @@
     #skills-title{
         background-color: black;
         color: white;
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
         margin: 0px;
         text-align: left;
@@ -189,7 +189,7 @@
     #my-awards-and-qua-title{
         background-color: black;
         color: white;
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
         margin: 0px;
         text-align: left;
@@ -224,7 +224,7 @@
     #my-favorite-title{
         background-color: black;
         color: white;
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
         margin: 0px;
         text-align: left;
@@ -240,7 +240,7 @@
         font-weight: 300;
         margin: 0px;
         padding-left: 9%;
-        line-height: 2rem;
+        line-height: 1.5rem;
     }
     #link-hoshimati{
         color: white;
@@ -260,7 +260,7 @@
     #contact-title{
         background-color: black;
         color: white;
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
         margin: 0px;
         text-align: left;
