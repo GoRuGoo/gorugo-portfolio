@@ -76,34 +76,31 @@
     /* ///////////////////////*/
     /* button */
 
-    #first-btn-primary{
-        background-color: black;
-        border-color: black;
-        color: white;
-        font-weight: 400;
-        padding-bottom: 0.62rem;
-        padding-top: 0.62rem;
-        cursor: pointer;
-    }
-
-    #second-btn-primary{
-        background-color: black;
-        border-color: black;
-        color: white;
-        font-weight: 400;
-        padding-bottom: 0.62rem;
-        padding-top: 0.63rem;
-        cursor: pointer;
-    }
-
-
     .buttondiv{
         background-color: black;
         padding-top: 3.13rem;
         padding-right: 0px;
         padding-left: 0px;
         margin-right: auto;
-        margin-left: auto;
+        margin-left: 1.3rem;
+        color: white;
+        padding-bottom: 0.62rem;
+        padding-top: 0.63rem;
+        cursor: pointer;
+    }
+
+    #first-btn-primary{
+        padding-right: auto;
+        padding-left: auto;
+    }
+
+    #second-btn-primary{
+        padding-left: auto;
+        padding-right: auto;
+    }
+    #third-btn-primary-wantedly{
+        padding-left: auto;
+        padding-right: auto;
     }
 
 
