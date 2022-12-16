@@ -3,6 +3,9 @@
 @media screen and ( max-width:479px )
 {
 
+    li{
+        margin-right: 3%;
+    }
     .welcome-div-class{
         background-color: black;
         position: relative;
@@ -17,7 +20,7 @@
         position: absolute;
         padding-left: 10%;
         padding-right: auto;
-        /* animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards; */
+        animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
         overflow: hidden;
     }
     @keyframes slideIn {
@@ -47,25 +50,25 @@
         background-color: black;
         font-family: syber;
         color: white;
-        font-size: 2rem;
+        font-size: 1.6rem;
         text-align: center;
         line-height: 2.3rem;
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: auto;
+        margin-left: auto;
         overflow: hidden;
     }
 
     #first-content{
         background-color: black;
         color:white;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         text-align: center;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        padding-top: 3.13rem;
+        padding-top: 2rem;
         font-weight: 300;
-        margin:0 auto;
-        margin-right: 5%;
-        margin-left: 5%;
+        text-align: center;
+        margin-right: 3%;
+        margin-left: 3%;
         overflow: hidden;
     }
 
@@ -80,12 +83,10 @@
         font-weight: 400;
         padding-bottom: 0.62rem;
         padding-top: 0.62rem;
-        margin-left: auto;
         cursor: pointer;
     }
 
     #second-btn-primary{
-        margin-left: 1.88rem;
         background-color: black;
         border-color: black;
         color: white;
@@ -95,18 +96,14 @@
         cursor: pointer;
     }
 
-    #third-btn-primary-wantedly{
-        margin-right: auto;
-        margin-left: 0.6rem;
-        margin-top: 0.5rem;
-    }
 
     .buttondiv{
         background-color: black;
-        padding: 6.25rem;
         padding-top: 3.13rem;
-        display: flex;
-        margin:0 auto;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
 
@@ -132,7 +129,6 @@
         margin: 0px;
         text-align: left;
         padding-left: 3.5%;
-        padding-right: auto;
     }
     #biography-ul{
         background-color: black;
@@ -144,7 +140,6 @@
         font-size: 1.25rem;
         font-weight: 300;
         padding-left: 9%;
-        padding-right: auto;
     }
 
     /* Skills */
