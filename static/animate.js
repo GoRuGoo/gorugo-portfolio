@@ -9,33 +9,37 @@ ScrollReveal().reveal('#biography-div', {
   duration: 1600,
   origin: 'right',
   distance: '50%',
-  reset: true
+  reset: true,
+  opacity:0
 });
 
 ScrollReveal().reveal('#introduce-my-skills-div', {
   duration: 1600,
   origin: 'right',
   distance: '50%',
-  reset: true
+  reset: true,
 });
 
 ScrollReveal().reveal('#my-awards-and-qua-div', {
   duration: 1600,
   origin: 'right',
   distance: '50%',
-  reset: true
+  reset: true,
+  opacity:0
 });
 
 ScrollReveal().reveal('#my-favorite-div', {
   duration: 1600,
   origin: 'right',
   distance: '50%',
-  reset: true
+  reset: true,
+  opacity:0
 });
 
 ScrollReveal().reveal('#contact-div', {
   duration: 1600,
   origin: 'right',
   distance: '50%',
-  reset: true
+  reset: true,
+  opacity:0
 });

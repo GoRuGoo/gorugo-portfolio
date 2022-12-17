@@ -16,6 +16,7 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: black;
+    overflow-x: hidden;
 }
 html{
     margin: 0px;
@@ -23,8 +24,8 @@ html{
     background-color: black;
 }
 ul li{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 0.94rem;
+    padding-bottom: 0.94rem;
 }
 
 
@@ -197,6 +198,10 @@ ul li{
     padding-left: 9%;
     padding-right: auto;
 }
+
+.li-bold{
+    font-weight: 600;
+}
 /* /////////////////*/
 
 /* Awards and Qua*/
@@ -302,4 +307,3 @@ ul li{
 #contact-a{
     color: white;
 }
-

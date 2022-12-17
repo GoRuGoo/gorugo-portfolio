@@ -4,7 +4,9 @@
 <head>
     <title>GoRuGoo's Portfolio</title>
     <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/smart-phone.css">
     <script src="https://unpkg.com/scrollreveal"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 </head>
 
@@ -20,7 +22,7 @@
             I live in Japan!!!<br>
             Call me GoRuGoo!!!
         </p>
-        <div class="buttondiv first-content">
+        <div class="buttondiv">
             <button id="first-btn-primary" onclick="location.href='https://github.com/GoRuGoo'">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-github"
                     viewBox="0 0 16 16">
@@ -40,7 +42,7 @@
         </div>
     </div>
     <div id="biography-div">
-        <h1 id="biography-title">Biography</h1>
+        <h1 id="biography-title" class="all-title">Biography</h1>
         <ul id="biography-ul">
             <li><a>2005 - Born in Nagoya, Japan</a></li>
             <li><a>2016 - Participated in RoboCup Junior</a></li>
@@ -48,9 +50,9 @@
         </ul>
     </div>
     <div id="introduce-my-skills-div">
-        <h1 id="skills-title">My Skills</h1>
+        <h1 id="skills-title" class="all-title">My Skills</h1>
         <ul id="skills-ul">
-            <li>Software Skills
+            <li><span class="li-bold">Software Skills</span>
                 <ul>
                     <li><a>Python - I use FastAPI and OpenCV.</a></li>
                     <li><a>React - Still Studying.</a></li>
@@ -63,7 +65,7 @@
                             business.</a></li>
                 </ul>
             </li>
-            <li>Hardware Skills
+            <li><span class="li-bold">Hardware Skills</span>
                 <ul>
                     <li><a>Fusion360 - Used to design robots while attending RoboCup Junior.</a></li>
                     <li><a>EAGLE - Used to make a PCB board while attending RoboCup Junior.</a></li>
@@ -75,15 +77,16 @@
         </ul>
     </div>
     <div id="my-awards-and-qua-div">
-        <h1 id="my-awards-and-qua-title">Awards and Qualifications</h1>
+        <h1 id="my-awards-and-qua-title" class="all-title">Awards and Qualifications</h1>
         <ul id="my-awards-and-qua-ul">
-            <li>Awards
+            <li><span class="li-bold">Awards</span>
                 <ul>
                     <li><a>33rd KOSEN Programming Contest Outstanding Performance Award </a></li>
                     <li><a>NAPROCK 14th INTERNATIONAL PROGRAMMING CONTEST SECOND PRIZE</a></li>
+                    <li><a>TJ-SIF-2022 Speakers</a></li>
                 </ul>
             </li>
-            <li>Qualifications
+            <li><span class="li-bold">Qualifications</span>
                 <ul>
                     <li><a>Information Technology Passport</a></li>
                     <li><a>ICT Proficiency Assessment Pre-2</a></li>
@@ -94,7 +97,7 @@
         </ul>
     </div>
     <div id="my-favorite-div">
-        <h1 id="my-favorite-title">My Favorite</h1>
+        <h1 id="my-favorite-title" class="all-title">My Favorite</h1>
         <p id="favorite-text">
             I like programming more than three meals.<br>
             And I love Suisei Hoshimachi who belongs to Hololive.<br>
@@ -102,16 +105,15 @@
             Here is her <a href="https://www.youtube.com/@HoshimachiSuisei" id="link-hoshimati">YouTube Link</a>
         </p>
     </div>
-    <div id="contact-div">
+    <div id="contact-div" class="all-title">
         <h1 id="contact-title">Contact Me</h1>
         <p id="contact-p">Contact Me:<a href="mailto:goru.technology@gmail.com"
                 id="contact-a">goru.technology@gmail.com</a></p>
     </div>
 </body>
 <footer>
+    <script type="text/javascript" src="/static/main.js"></script>
+    <script type="text/javascript" src="/static/animate.js"></script>
 </footer>
-<script type="text/javascript" src="/static/main.js"></script>
-<script type="text/javascript" src="/static/animate.js"></script>
-
 
 </html>
